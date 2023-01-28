@@ -1,5 +1,15 @@
 # InjectStrap
-Video feature extraction for Smart4ALL experiment
+![Travis (.com)](https://img.shields.io/travis/com/ithermai/swabai)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/ithermai/swabai) 
+![Lines of code](https://img.shields.io/tokei/lines/github/ithermai/swabai)
+![GitHub repo size](https://img.shields.io/github/repo-size/ithermai/swabai)
+![GitHub last commit](https://img.shields.io/github/last-commit/ithermai/swabai)
+
+This repository is designed for extracting features from videos as part of the Smart4ALL experiment. The experiment involves using thermal videos to extract thermal properties and generation cycles of [components](https://elvez.si/METALLISED-COMPONENTS/) from the [Elvez compnay](https://elvez.si/). The videos were recorded using a PI thermal camera. This repository can work real-time alongside of a camera. 
+
+In the video that follows, a component can be observed as it moves in front of the camera. By studying videos like this one, we can record the thermal properties of the component as it moves in front of the camera in tabular form. The brought videos is just a sample. 
+
 [picture place holder for demonstration]
 
 ## How to run the program
