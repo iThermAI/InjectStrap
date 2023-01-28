@@ -6,7 +6,7 @@
 
 This repository is designed for extracting features from videos as part of the Smart4ALL experiment. The experiment involves using thermal videos to extract thermal properties and generation cycles of [components](https://elvez.si/METALLISED-COMPONENTS/) from the [Elvez compnay](https://elvez.si/). The videos were recorded using a PI thermal camera. This repository can work real-time alongside a camera. 
 
-In the video that follows, a component can be observed as it moves in front of the camera. By studying videos like this one, we can record the thermal properties of the component as it appears in front of the camera in tabular form. The brought videos is just a sample. 
+In the video that follows, a component can be observed as it moves in front of the camera. By studying videos like this one, we can record the thermal properties of the component, as it appears in front of the camera, in tabular form. The brought videos is just a sample. 
 
 
 
@@ -17,7 +17,7 @@ After identifying a static frame that encompasses all parts of the component, we
 ![image](https://user-images.githubusercontent.com/69720514/215269316-5e85b14d-95d6-407d-8e7d-6126b74ae18b.jpg)
 
 ## How to run the program
-Running this program is straightforward. To generate a dataset from the videos, the main.py script must be executed. This script accepts two arguments: `vid_dir` which is the directory containing the input videos, and `save_dir` which is the directory and name of the generated dataset. By executing the following code lines, the script will run and the generated dataset will be saved in the specified directory and filename.
+Running this program is straightforward. To generate a dataset from the videos, the `main.py` script must be executed. This script accepts two arguments: `vid_dir` which is the directory containing the input videos, and `save_dir` which is the directory and name of the generated dataset. By executing the following code lines, the script will run and the generated dataset will be saved in the specified directory and filename.
 
 ```shell
  python main.py --vid_dir "./vid.ravi" --save_dir "./result/dataset-vid1.csv"
