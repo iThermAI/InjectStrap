@@ -36,4 +36,4 @@ or
 ```
 
 ### Acknowledgements
-This project was supported by the Smart4ALL project in Horizon 2020. 
+This Knowledge Transfer Experiment has received funding from the European Union’s Horizon 2020 research and innovation programme under the SMART4ALL grant agreement no 872614. 
